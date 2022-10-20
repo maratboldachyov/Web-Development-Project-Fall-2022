@@ -1,0 +1,51 @@
+.title {
+    text-align: center;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI Semibold,wf_segoe-ui_semibold,wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+}
+
+.image {
+    display:inline-block;
+    text-align: center;
+    width: 40px;
+}
+
+.popular {
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    font-family: Segoe UI Semibold,wf_segoe-ui_semibold,wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+}
+
+
+.image_popular {
+    display: inline-block;
+    margin-left: 0px;
+    height: 200px;
+}
+
+.container {
+    display:inline-block;
+    margin-left: 30px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.container_popular {
+    display:inline-block;
+    margin-left: 40px;
+    text-align: center;
+    width: 345px;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+

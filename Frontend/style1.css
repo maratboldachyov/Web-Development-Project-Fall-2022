@@ -1,0 +1,74 @@
+.title {
+    text-align: center;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    font-family: Segoe UI Semibold,wf_segoe-ui_semibold,wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+}
+
+.image {
+    display:inline-block;
+    text-align: center;
+    width: 40px;
+}
+
+.meeting {
+    margin-top: 500px;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    font-family: Segoe UI Semibold,wf_segoe-ui_semibold,wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+}
+
+
+.image_popular {
+    display: inline-block;
+    margin-left: 0px;
+    height: 200px;
+}
+
+.container {
+    display:inline-block;
+    margin-left: 30px;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+}
+
+
+.container_popular {
+    
+    display:inline-block;
+    margin-left: 70px;
+    width: 300px;
+    font-family: "Segoe UI Light,Segoe WP Light,wf_segoe-ui_light,wf_segoe-ui_normal,Segoe UI,Segoe WP,Helvetica,Tahoma,Arial,sans-serif";
+    color: rgb(0, 0, 0);
+    font-size: 130%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+.container_popular_fig {
+    font-family: "Segoe UI Light,Segoe WP Light,wf_segoe-ui_light,wf_segoe-ui_normal,Segoe UI,Segoe WP,Helvetica,Tahoma,Arial,sans-serif";
+    color: rgb(0, 0, 0);
+    font-size: 80%;
+}
+
+
+.popular_sections {
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    font-family: Segoe UI Semibold,wf_segoe-ui_semibold,wf_segoe-ui_normal,Segoe UI,Segoe WP,Tahoma,Arial,sans-serif;
+}
+
+
+.column_last {
+    float: left;
+    width: 50%;
+    height: 300px; /* Should be removed. Only for demonstration */
+}

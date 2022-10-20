@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+.container{
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+    color: #030303;
+}
+img{
+    cursor: pointer;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.vl {
+    border-left: 3px solid rgb(4, 4, 4);
+    height: 30px;
+}
+.icon{
+    width: 20px;
+    margin-left: 3px;
+}
+.logo{
+    width: 110px;
+    margin-top: 5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+header nav a{
+    font-size: 13px;
+}
+header nav a:hover{
+    text-decoration: underline;
+}
+header nav img{
+    margin-top: -5px;
+}
+#buy{
+    border: 1px solid black;
+    padding: 3px;
+}
+.cur{
+    font-size: 18px;
+    font-weight: 600;
+}
+header nav ul{
+    display: inline-flex;
+    /* justify-content: space-between; */
+    list-style: none;
+}
+header nav ul li{
+    margin: 20px;
+}
+.news{
+    background-color: #0067B8;
+    text-align:center;
+    font-size: 16px;
+    color:white;
+    padding: 10px;
+}
+
+
+
+
+.main{
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    height: 75vh;
+}
+.main-con{
+    width: 530px;
+    margin-left: 130px;
+    position: absolute;
+    margin-top: 130px;
+    line-height: 1.2;
+}
+.main-con h1{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.main-con p{
+    font-weight: 600;
+    font-size: 24px;
+}   
+.main-a a{
+    width: 200px;
+    display: block;
+    color: white;
+    background-color: #0067B8;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+.main-a{  
+    text-align: center;  
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+.main-second a{
+    color: #0067B8;
+    font-weight:600;
+}
+.main-second-top{
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+}
+.main-second-top h2{
+    font-size: 2.3125rem;
+    margin-bottom: 1.25rem;
+}
+.main-second-top .off{
+    margin: auto;
+    width: 950px;
+}
+.main-second-top a{
+    margin: 8px 0;
+    font-size: 16px;
+}
+.main-second-mid{
+    justify-content: center;
+    display:flex;
+    margin-top: 50px;
+}
+.main-second-mid a{
+    text-align: center;
+    margin: 0 30px;
+    text-decoration: underline;
+}
+.main-second-mid .another-a{
+    margin-top: 25px;
+}
+.main-second-btm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 70px;
+}
+.main-second-btm .item{
+    width: 33%;
+}
+.main-second-btm a{
+    padding-right:21px;
+}
+
+
+
+
+
+.questions{
+    width: 90%;
+    margin-top: 100px;
+    padding: 0 70px;
+}
+.show{
+    display: none; 
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.show p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.show ul li{
+    list-style:circle;
+    line-height: 1px;
+    margin-left: 50px;
+}
+.show a{
+    text-decoration: underline;
+    color: #0067B8;
+}
+.questions h2{
+    margin-bottom: 50px;
+    font-weight:600;
+    font-size: 37px;
+}
+.questions ul{
+    list-style: none;
+}
+.questions ul li{
+    padding: 20px 5px;
+}
+.questions ul li input{
+    display: none;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn:hover{
+    background-color: #d9dcdd;
+}
+#btnControl1:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl1:checked ~ .show{
+    display: block;
+}
+#btnControl2:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl2:checked ~ .show{
+    display: block;
+}
+#btnControl3:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl3:checked ~ .show{
+    display: block;
+}
+#btnControl4:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl4:checked ~ .show{
+    display: block;
+}
+#btnControl5:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl5:checked ~ .show{
+    display: block;
+}
+#btnControl6:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl6:checked ~ .show{
+    display: block;
+}
+#btnControl7:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl7:checked ~ .show{
+    display: block;
+}
+#btnControl8:checked + label{
+    border: 2px dashed black;
+    padding: 5px 10px;
+    padding-right: 500px;
+}
+#btnControl8:checked ~ .show{
+    display: block;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+
+
+
+.podrobnee{
+    text-align: center;
+    padding: 0 200px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.podrobnee .links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.podrobnee .links a{
+    font-size: 27px;
+    font-weight: 600;
+}
+.podrobnee .links span{
+    color: #0067B8;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.podrobnee .links span:hover{
+    text-decoration: underline;
+}
+.podrobnee h1{
+    font-size: 37px;
+}
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(161, 159, 159);
+    margin:5px 2rem;
+    margin-top: 5rem;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+
+
+footer a{
+    font-size: 11px;
+    color: #616161;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer h4{
+    color: #616161;
+    font-size: 15px;
+}
+footer .top{
+    display: inline-flex;
+    padding: 20px 50px;
+}
+footer .top h2{
+    font-size: 16px;
+}
+footer .top img{
+    width: 30px;
+    margin: -5px 10px;
+}
+footer .mid{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+footer .item{
+    width: 200px;
+}
+footer .item ul{
+    list-style: none;
+}
+footer .btm{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+footer .btm ul{
+    list-style: none;
+    display:inline-flex;
+}
+footer .btm ul li{
+    margin-right: 10px;
+}
